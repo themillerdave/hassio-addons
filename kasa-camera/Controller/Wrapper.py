@@ -26,7 +26,7 @@ class FfmpegWrapper:
             '-f',
             'h264',
             '-i',
-            f'https://{self.camera["cameraip"]}:19443/https/stream/mixed?video=h264&audio=g711&resolution=hd',
+            f'https://{self.camera["cameraip"]}:2971/https/stream/mixed?video=h264&audio=g711&resolution=hd',
             '-map',
             '0',
             '-vcodec',
